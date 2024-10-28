@@ -1,0 +1,341 @@
+/* RESET */
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+img{
+    max-width:100%;
+    display:block;
+}
+
+/* CUSTOM PROPERTIES */
+:root{
+    /* COLOR */
+    --clr-veryLightGrayishBlue: hsl(240, 78%, 98%);
+    --clr-lightGrayishBlue: hsl(234, 14%, 74%);
+    --clr-grayishBlue: hsl(233, 13%, 49%);
+    --clr-darkGrayishBlue: hsl(232, 13%, 33%);
+    --clr-linearGradient: hsl(236, 72%, 79%) to hsl(237, 63%, 64%);
+
+    /* FONT SIZE */
+    --fs-15:0.9rem;
+    /* FONT WEIGHT */
+    --fw-700:700;
+    /* FONT FAMILY */
+    --ff-montserrat:"Montserrat", sans-serif;
+}
+
+/* BODY */
+body{
+    font-weight: var(--fw-700);
+    font-size: var(--fs-15);
+    font-family: var(--ff-montserrat);
+    line-height: 1.6;
+    color:var(--clr-darkGrayishBlue);
+    background:var(--clr-veryLightGrayishBlue) url('images/bg-top.svg') calc(100% + 220px) calc(0% + -40px)no-repeat;
+    background-size:105%;
+}
+
+/* COMPONENTS */
+
+/* Main */
+.main-container{
+    width:88%;
+    margin:0 auto;
+}
+/* Section */
+.pricing-container{
+    margin-top:15%;
+    text-align: center;
+}
+/* Title */
+.title{
+    margin-top:17%;
+}
+.title-txt{
+    font-size:2rem;
+}
+/* Toggle Bar */
+.toggle{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:10%;
+}
+/* Period */
+.period-txt{
+    font-size:0.9rem;
+    margin-top:0.31rem;
+    margin-left:1.38rem;
+    margin-right:1.38rem;
+    color:var(--clr-lightGrayishBlue);
+}
+/* The switch container */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 3.63rem;
+    height: 2.13rem;
+    overflow: scroll;
+}
+  
+  /* Hide the default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+  /* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:linear-gradient(to right, hsl(236, 72%, 79%) 10%, hsl(237, 63%, 64%) 90%);
+    transition: 0.4s;
+    border-radius:2.13rem;
+}
+  
+  /* The circle inside the slider */
+.slider::before {
+    position: absolute;
+    content: "";
+    height:1.5rem;
+    width:1.5rem;
+    left:0.25rem;
+    bottom:0.38rem;
+    background-color: white;
+    transition:0.4s;
+    border-radius: 50%;
+}
+  
+  /* When the checkbox is checked */
+input:checked + .slider {
+    background:linear-gradient( hsl(237, 53%, 83%) 100%, hsl(237, 63%, 64%) 0%);
+}
+  
+input:checked + .slider::before {
+    transform: translateX(26px);
+}
+
+/* Blocks Section */
+.blocks-section{
+    margin-top:21.5%;
+}
+
+/* Basic Block */
+.basic-block{
+    margin-top:0.63rem;
+    border-radius:0.63rem;
+    background-color:white;
+    border:1px solid white;
+}
+.basic-title{
+    font-size:1.19rem;
+    margin-top:1.88rem;
+}
+/* Price */
+.price{
+    font-size:4.38rem;
+    margin-top:-0.75rem;
+    overflow: hidden;
+}
+.dollar-sign{
+    font-size:2.63rem;
+    margin-right:0.25rem;
+    vertical-align:0.63rem;
+}
+/* Horizontal Line */
+hr{
+    width:82%;
+    outline:none;
+    border:none;
+    background-color: hsl(240, 12%, 88%);
+    height:0.5px;
+}
+.hr1{
+    margin-top:-3.69rem;
+}
+.p-hr{
+    background-color: hsl(236, 61%, 86%);
+    outline:none;
+    border:none;
+}
+.hr2{
+    margin-top:-0.13rem;
+}
+
+/* Button */
+.btn{
+    margin-top:1.56rem;
+    text-transform: uppercase;
+    width:81.4%;
+    padding:0.88rem 0px 0.88rem 1rem;
+    letter-spacing:0.06rem;
+    word-spacing:0.25rem;
+    font-weight: var(--fw-700);
+    text-align: center;
+    border-radius:0.31rem;
+    border:none;
+    outline:none;
+    cursor:pointer;    
+}
+
+.learn-btn{
+    background: linear-gradient(to right, hsl(236, 72%, 79%) 10%, hsl(237, 63%, 64%) 90%);
+    color:var(--clr-veryLightGrayishBlue);
+    margin-bottom:1.88rem;
+}
+.learn-btn:focus,
+.learn-btn:hover{
+    background: linear-gradient(to right, white 10%, white 90%);
+    color:hsl(237, 63%, 64%);
+    border:1px solid var(--clr-darkGrayishBlue);
+}
+
+/* Professional Block */
+.professional-block{
+    border-radius:0.63rem;
+    margin-top:2.06rem;
+    background: linear-gradient(to right, hsl(236, 72%, 79%) 10%, hsl(237, 63%, 64%) 90%);
+    color:var(--clr-veryLightGrayishBlue);
+    border:1px solid hsl(236, 72%, 79%);
+}
+.learn-btn1{
+    background: var(--clr-veryLightGrayishBlue);
+    color:var(--clr-grayishBlue);
+    margin-bottom:1.88rem;
+}
+.learn-btn1:focus,
+.learn-btn1:hover{
+    background: linear-gradient(to right, hsl(236, 72%, 79%) 10%, hsl(237, 63%, 64%) 90%);
+    color:var(--clr-veryLightGrayishBlue);
+    border:1px solid var(--clr-veryLightGrayishBlue);
+}
+
+/* Master Block */
+.master-block{
+    border-radius:0.63rem;
+    background-color:white;
+    margin-top:2.06rem;
+    border:1px solid white;
+}
+
+/* Hide Monthly Price by Default */
+.monthly-price {
+    display: none;
+}
+
+.annual-price {
+    display: inline;
+}
+
+/* When 'show-monthly' class is added to body */
+.show-monthly .annual-price {
+    display: none;
+}
+
+.show-monthly .monthly-price {
+    display: inline;
+}
+
+/* Footer */
+footer{
+    font-size:0.69rem;
+    text-align: center;
+}
+.attribution a{
+    text-decoration: none;
+    cursor:pointer;
+    color:var(--clr-grayishBlue);
+}
+
+@media (min-width:600px){
+    body{
+        background: url('images/bg-top.svg') right top no-repeat,
+                    url('images/bg-bottom.svg') bottom left no-repeat;
+        background-color: var(--clr-veryLightGrayishBlue);                  
+        background-size:cover cover;
+        min-height:100vh;            
+    }
+
+    /* COMPONENTS */
+    /* Section */
+    .pricing-container{
+        margin-top:4.3%;
+    }
+    .title{
+        margin-top:0%;
+    }
+
+    /* Toggle Bar */
+    .toggle{
+        margin-top:2.5%;
+    }
+
+    /* The switch container */
+    .switch {
+        overflow:auto;
+    }
+    /* Blocks Section */
+    .blocks-section{
+        margin-top:1.6%;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;       
+    }
+
+    /* Basic Block */
+    .basic-block{
+        margin-top:3.44rem;
+        width:26%;
+        height:20%;
+    }
+ 
+    .price{
+        font-size:1.88rem;
+        margin-bottom:3.75rem;
+    }
+    .dollar-sign{
+        font-size:1.38rem;
+        vertical-align:0.31rem;
+    }
+
+    /* Professional Block */
+    .professional-block{
+        margin-top:2.06rem;
+        width:26%;
+        padding-bottom:1.56rem;
+    }
+
+    .basic-deskptitle{
+        margin-top:3.13rem;
+    }
+
+        /* Master Block */
+    .master-block{
+        margin-top:3.44rem;
+        width:26%;
+        height:20%;
+    }
+    footer{
+        margin-top:1.88rem;
+    }    
+}
+
+@media (min-width:1200px){
+    .price{
+        font-size:4.38rem;
+        margin-top:-0.75rem;
+        margin-bottom:4.38rem;
+    }
+    .dollar-sign{
+        font-size:2.63rem;
+        margin-right:0.25rem;
+        vertical-align:0.63rem;
+    }
+}
