@@ -7,12 +7,12 @@
     <a href="https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC"><strong>Frontend Mentor Challenge</strong></a>
     <br />
     <br />
-    <a href="https://0xabdulkhalid.github.io/news-homepage/">View Demo</a>
+    <a href="https://design-pricing-component-with-toggle.netlify.app/">View Demo</a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/0xabdulkhalid/news-homepage/issues">Report Bug</a>
+    <a href="https://github.com/aratidsa/Pricing-Component-with-Toggle/issues">Report Bug</a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/0xabdulkhalid/news-homepage/issues">Request Feature</a>
-  </p>
+    <a href="https://github.com/aratidsa/Pricing-Component-with-Toggle/issues">Request Feature</a>
+  </p>8
 </div>
 
 <!-- Badges -->
@@ -106,19 +106,19 @@
 
 <div align=center>
 
-  <a href="https://linkedin.com/in/0xabdulkhalid" >
+  <a href="https://www.linkedin.com/in/arati-dsa-313626136" >
     <img src="https://img.shields.io/badge/linkedin%20Profile-%2300acee.svg?color=405DE6&style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Profile">
   </a>&nbsp;&nbsp;&nbsp;
 
-  <a href="https://www.frontendmentor.io/profile/0xabdulkhalid" >
+  <a href="https://www.frontendmentor.io/profile/aratidsa" >
     <img src="https://img.shields.io/badge/FEM%20Profile-f8f9f8?style=for-the-badge&logo=Frontend-Mentor&logoColor=black" alt="Frontend-Mentor Profile">
   </a> &nbsp;&nbsp;&nbsp;
 
-   <a href="mailto:0xabdulkhaliq@gmail.com" target="_blank">
+   <a href="mailto:aratidsa2023@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/gmail-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" alt=mail/>
   </a>&nbsp;&nbsp;  
 
-  <a href="https://www.github.com/0xabdulkhalid/" >
+  <a href="https://github.com/aratidsa" >
     <img src="https://img.shields.io/badge/Github%20Profile-131313?style=for-the-badge&logo=github&logoColor=white" alt="Github Profile">
   </a>
 
