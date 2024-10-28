@@ -12,7 +12,7 @@
     <a href="https://github.com/aratidsa/Pricing-Component-with-Toggle/issues">Report Bug</a>
     &nbsp;·&nbsp;
     <a href="https://github.com/aratidsa/Pricing-Component-with-Toggle/issues">Request Feature</a>
-  </p>8
+  </p>
 </div>
 
 <!-- Badges -->
@@ -41,9 +41,20 @@
 ## **Preview**
 
 <div align='center'>
-<img src='./design/preview.webp' alt='Pricing component with toggle preview image'>
-</div>
+  <p><b>Mobile Preview</b></p>
+  <br>
+ 
+   ![screencapture-127-0-0-1-5500-index-html-2024-10-28-19_35_40](https://github.com/user-attachments/assets/f305b1da-accd-4a85-852b-5529091c77a7)
 
+
+  <br>
+  <p><b> Desktop Preview</b></p>
+  
+![screencapture-127-0-0-1-5500-index-html-2024-10-28-19_35_25](https://github.com/user-attachments/assets/a4249704-99b4-4dfc-b70c-cc569d5fde3a)
+
+
+<br>
+</div>
 
 <br>
 
@@ -61,9 +72,10 @@
   
 - ||
   | :-----: |
-  |  <b>Overall score 97.4% for Both Mobile & Desktop</b><br>(Below score is for mobile devices) |
+  |  <b>Overall score 96.5% for Both Mobile & Desktop</b><br>(Below scores are for mobile and desktop devices) |
   | |
-  | <img src='./images/pagespeed-insights-score.svg' alt='Scoreboard'> |
+  | ![Screenshot 2024-10-28 191752](https://github.com/user-attachments/assets/07fa5098-f00b-41dd-9025-1534d1c3cfdd) 
+    ![Screenshot 2024-10-28 191735](https://github.com/user-attachments/assets/b91a1bf7-bd95-46b7-881c-c281a0e6bd36) |
   | |
   | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/analysis/https-0xabdulkhalid-github-io-news-homepage/tdffinbwjg?form_factor=desktop) to get live score |
   ||
