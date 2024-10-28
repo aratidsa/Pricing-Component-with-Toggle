@@ -39,9 +39,10 @@
                 
                 <!-- Switch component for toggling between Annual and Monthly pricing -->
                 <label class="switch">
-                    <input type="checkbox" id="priceToggle">
-                    <span class="slider"></span> <!-- Slider to visually represent the toggle -->
+                    <input type="checkbox" id="priceToggle" title="Toggle pricing options">
+                    <span class="slider" aria-hidden="true"></span> <!-- Slider to visually represent the toggle -->
                 </label>
+                <label for="priceToggle" class="visually-hidden">Toggle pricing options</label>
                 
                 <h2 class="period-txt">Monthly</h2>
             </div>
