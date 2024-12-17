@@ -77,7 +77,7 @@
   | ![Screenshot 2024-10-28 191752](https://github.com/user-attachments/assets/07fa5098-f00b-41dd-9025-1534d1c3cfdd) 
     ![Screenshot 2024-10-28 191735](https://github.com/user-attachments/assets/b91a1bf7-bd95-46b7-881c-c281a0e6bd36) |
   | |
-  | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/analysis/https-0xabdulkhalid-github-io-news-homepage/tdffinbwjg?form_factor=desktop) to get live score |
+  | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/) to get live score |
   ||
 
 <br>
